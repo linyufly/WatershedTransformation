@@ -12,6 +12,10 @@ class WatershedTransformation {
       bool six_connectivity,
       int neighbor_limit,
       double neighbor_threshold);
+  static vtkStructuredPoints *transform(
+      vtkStructuredPoints *scalar_field,
+      bool six_connectivity,
+      double persistence_threshold);
 };
 
 #endif  // WATERSHED_TRANSFORMATION_H_

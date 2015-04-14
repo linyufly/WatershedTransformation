@@ -15,7 +15,7 @@ const char *kTransformOutputFile = "transform.vtk";
 
 const int kConnectivity = 6;
 const int kNeighborLimit = 10;
-const double kNeighborThreshold = 0.5;  // In percentage.
+const double kNeighborThreshold = 0.01;  // In percentage.
 
 }
 
